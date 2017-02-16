@@ -1,0 +1,17 @@
+body{
+	margin: 20px;
+}
+
+#canvas{
+	margin: 20px 10% 60px 10%;
+	height: 500px;
+	position: relative;
+}
+
+.num-bar{
+	position: absolute;
+	background-color: red;
+	bottom: 0;
+	width:1%;  
+	animation: left 0.5s ease-in-out;
+}
